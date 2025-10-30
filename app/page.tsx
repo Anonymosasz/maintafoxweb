@@ -196,8 +196,8 @@ export default function HomePage() {
             <div className="absolute right-1/4 bottom-1/4 h-96 w-96 rounded-full bg-blue-500 blur-[120px]" />
           </div>
 
-          <div className="container-12 relative flex min-h-[90vh] flex-col justify-center py-20">
-            <div className="grid items-center gap-12 lg:grid-cols-[1.2fr_0.8fr]">
+          <div className="container-12 relative flex min-h-[90vh] flex-col justify-center py-16 sm:py-20">
+            <div className="grid items-center gap-8 sm:gap-12 lg:grid-cols-[1.2fr_0.8fr]">
               <div className="relative z-10">
                 {/* Floating badge */}
                 <div className="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-white shadow-xl backdrop-blur-sm ring-1 ring-white/20">
@@ -207,7 +207,7 @@ export default function HomePage() {
                   </span>
                 </div>
 
-                <h1 className="mt-8 text-5xl font-bold leading-tight tracking-tight text-white sm:text-6xl lg:text-7xl">
+                <h1 className="mt-8 text-4xl font-bold leading-tight tracking-tight text-white sm:text-6xl lg:text-7xl">
                   {t.hero.title1}
                   <span className="bg-gradient-to-r from-accent to-orange-300 bg-clip-text text-transparent">
                     {' '}
@@ -221,33 +221,33 @@ export default function HomePage() {
                   </span>
                 </h1>
 
-                <p className="mt-6 text-lg leading-relaxed text-slate-300 lg:text-xl">
+                <p className="mt-6 text-base leading-relaxed text-slate-300 sm:text-lg lg:text-xl">
                   {t.hero.subtitle}
                 </p>
 
                 {/* Stat pills */}
-                <div className="mt-8 flex flex-wrap gap-4">
-                  <div className="group relative overflow-hidden rounded-2xl bg-white/10 px-6 py-4 backdrop-blur-sm ring-1 ring-white/20 transition-all hover:bg-white/20">
+                <div className="mt-8 flex flex-wrap gap-3 sm:gap-4">
+                  <div className="group relative overflow-hidden rounded-2xl bg-white/10 px-5 py-3 backdrop-blur-sm ring-1 ring-white/20 transition-all hover:bg-white/20 sm:px-6 sm:py-4">
                     <div className="absolute inset-0 bg-gradient-to-r from-accent/20 to-transparent opacity-0 transition-opacity group-hover:opacity-100" />
-                    <div className="relative text-3xl font-bold text-white">
+                    <div className="relative text-2xl font-bold text-white sm:text-3xl">
                       {t.hero.stat1Value}
                     </div>
                     <div className="relative text-xs uppercase tracking-wider text-slate-300">
                       {t.hero.stat1Label}
                     </div>
                   </div>
-                  <div className="group relative overflow-hidden rounded-2xl bg-white/10 px-6 py-4 backdrop-blur-sm ring-1 ring-white/20 transition-all hover:bg-white/20">
+                  <div className="group relative overflow-hidden rounded-2xl bg-white/10 px-5 py-3 backdrop-blur-sm ring-1 ring-white/20 transition-all hover:bg-white/20 sm:px-6 sm:py-4">
                     <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-transparent opacity-0 transition-opacity group-hover:opacity-100" />
-                    <div className="relative text-3xl font-bold text-white">
+                    <div className="relative text-2xl font-bold text-white sm:text-3xl">
                       {t.hero.stat2Value}
                     </div>
                     <div className="relative text-xs uppercase tracking-wider text-slate-300">
                       {t.hero.stat2Label}
                     </div>
                   </div>
-                  <div className="group relative overflow-hidden rounded-2xl bg-white/10 px-6 py-4 backdrop-blur-sm ring-1 ring-white/20 transition-all hover:bg-white/20">
+                  <div className="group relative overflow-hidden rounded-2xl bg-white/10 px-5 py-3 backdrop-blur-sm ring-1 ring-white/20 transition-all hover:bg-white/20 sm:px-6 sm:py-4">
                     <div className="absolute inset-0 bg-gradient-to-r from-accent/20 to-transparent opacity-0 transition-opacity group-hover:opacity-100" />
-                    <div className="relative text-3xl font-bold text-white">
+                    <div className="relative text-2xl font-bold text-white sm:text-3xl">
                       {t.hero.stat3Value}
                     </div>
                     <div className="relative text-xs uppercase tracking-wider text-slate-300">
@@ -257,17 +257,17 @@ export default function HomePage() {
                 </div>
 
                 {/* CTA Buttons */}
-                <div className="mt-10 flex flex-wrap gap-4">
+                <div className="mt-10 flex flex-wrap gap-3 sm:gap-4">
                   <Link
                     href="/demo"
-                    className="group relative overflow-hidden rounded-xl bg-accent px-8 py-4 font-semibold text-white shadow-xl transition-all hover:shadow-2xl hover:shadow-accent/50"
+                    className="group relative overflow-hidden rounded-xl bg-accent px-6 py-3 text-sm font-semibold text-white shadow-xl transition-all hover:shadow-2xl hover:shadow-accent/50 sm:px-8 sm:py-4 sm:text-base"
                   >
                     <span className="relative z-10">{t.hero.ctaPrimary}</span>
                     <div className="absolute inset-0 bg-gradient-to-r from-orange-600 to-accent opacity-0 transition-opacity group-hover:opacity-100" />
                   </Link>
                   <Link
                     href="/features"
-                    className="group rounded-xl border-2 border-white/30 px-8 py-4 font-semibold text-white backdrop-blur-sm transition-all hover:border-white/50 hover:bg-white/10"
+                    className="group rounded-xl border-2 border-white/30 px-6 py-3 text-sm font-semibold text-white backdrop-blur-sm transition-all hover:border-white/50 hover:bg-white/10 sm:px-8 sm:py-4 sm:text-base"
                   >
                     {t.hero.ctaSecondary}
                   </Link>
@@ -275,7 +275,7 @@ export default function HomePage() {
               </div>
 
               {/* Floating dashboard preview */}
-              <div className="relative scale-125">
+              <div className="relative scale-[0.95] sm:scale-110 lg:scale-125">
                 {/* Dashboard image with 3D floating effect */}
                 <div
                   className="relative transform-gpu transition-all duration-500 hover:scale-110"
@@ -310,8 +310,8 @@ export default function HomePage() {
             </svg>
           </div>
         </section>{' '}
-        <MotionSection className="border-t border-b border-slate-200 bg-white/70 py-6">
-          <div className="container-12 flex flex-wrap items-center justify-center gap-6 text-xs font-semibold uppercase tracking-[0.3em] text-slate-400">
+        <MotionSection className="border-t border-b border-slate-200 bg-white/70 py-5 sm:py-6">
+          <div className="container-12 flex flex-wrap items-center justify-center gap-4 text-xs font-semibold uppercase tracking-[0.3em] text-slate-400 sm:gap-6">
             <span>Trusted by Algerian innovators</span>
             <span className="h-1 w-1 rounded-full bg-slate-300" aria-hidden="true" />
             <span>Industrial Manufacturing</span>
@@ -327,21 +327,21 @@ export default function HomePage() {
         <MotionSection id="benefits" className="section">
           <div className="container-12">
             <div className="mx-auto max-w-3xl text-center">
-              <h2 className="text-4xl font-bold text-brand">{t.painPoints.title}</h2>
-              <p className="mt-4 text-lg text-slate-600">{t.painPoints.subtitle}</p>
+              <h2 className="text-3xl font-bold text-brand sm:text-4xl">{t.painPoints.title}</h2>
+              <p className="mt-4 text-base text-slate-600 sm:text-lg">{t.painPoints.subtitle}</p>
             </div>
 
-            <div className="mt-16 space-y-12">
+            <div className="mt-12 space-y-10 sm:mt-16 sm:space-y-12">
               {painpoints.map(({ Icon }, index) => (
                 <div
                   key={t.painPoints.items[index].title}
-                  className={`group grid items-center gap-8 lg:grid-cols-2 ${
+                  className={`group grid items-center gap-6 sm:gap-8 lg:grid-cols-2 ${
                     index % 2 === 1 ? 'lg:grid-flow-dense' : ''
                   }`}
                 >
                   {/* Icon side */}
                   <div className={`relative ${index % 2 === 1 ? 'lg:col-start-2' : ''}`}>
-                    <div className="relative mx-auto flex h-64 w-64 items-center justify-center">
+                    <div className="relative mx-auto flex h-52 w-52 items-center justify-center sm:h-64 sm:w-64">
                       {/* Animated background rings */}
                       <div className="absolute inset-0 rounded-full bg-gradient-to-br from-accent/20 to-blue-500/20 blur-2xl transition-all group-hover:scale-110" />
                       <div className="absolute inset-4 rounded-full bg-white ring-1 ring-slate-200 transition-all group-hover:ring-accent" />
@@ -353,11 +353,11 @@ export default function HomePage() {
 
                   {/* Content side */}
                   <div className={index % 2 === 1 ? 'lg:col-start-1 lg:row-start-1' : ''}>
-                    <div className="rounded-2xl bg-white p-8 shadow-lg ring-1 ring-slate-100 transition-all group-hover:shadow-xl">
-                      <h3 className="text-2xl font-bold text-brand">
+                    <div className="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-slate-100 transition-all group-hover:shadow-xl sm:p-8">
+                      <h3 className="text-xl font-bold text-brand sm:text-2xl">
                         {t.painPoints.items[index].title}
                       </h3>
-                      <p className="mt-4 text-slate-600 leading-relaxed">
+                      <p className="mt-4 text-sm leading-relaxed text-slate-600 sm:text-base">
                         {t.painPoints.items[index].description}
                       </p>
                       <div className="mt-6 flex items-center gap-2 text-accent font-semibold">
@@ -396,39 +396,39 @@ export default function HomePage() {
 
           <div className="container-12 relative">
             <div className="mx-auto max-w-3xl text-center">
-              <h2 className="text-4xl font-bold text-brand">
+              <h2 className="text-3xl font-bold text-brand sm:text-4xl">
                 Six pillars of maintenance excellence
               </h2>
-              <p className="mt-4 text-lg text-slate-600">
+              <p className="mt-4 text-base text-slate-600 sm:text-lg">
                 Every module shares a unified data model and adapts to Algerian regulatory
                 frameworks.
               </p>
             </div>
 
-            <div className="mt-16 grid gap-6 lg:grid-cols-3">
+            <div className="mt-12 grid gap-5 sm:mt-16 sm:gap-6 lg:grid-cols-3">
               {featureHighlights.map(({ title, bullets, Icon }, index) => (
                 <article key={title} className="group relative">
                   {/* Hover glow effect */}
                   <div className="absolute -inset-1 rounded-3xl bg-gradient-to-r from-accent/0 via-accent/50 to-blue-500/50 opacity-0 blur transition-opacity group-hover:opacity-100" />
 
-                  <div className="relative flex h-full flex-col rounded-2xl bg-white p-8 shadow-lg ring-1 ring-slate-200 transition-all group-hover:shadow-2xl">
+                  <div className="relative flex h-full flex-col rounded-2xl bg-white p-6 shadow-lg ring-1 ring-slate-200 transition-all group-hover:shadow-2xl sm:p-8">
                     {/* Icon header with gradient background */}
                     <div className="mb-6 inline-flex">
                       <div className="relative">
                         <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-accent to-orange-600 blur-md opacity-50" />
-                        <div className="relative grid h-14 w-14 place-items-center rounded-xl bg-gradient-to-br from-accent to-orange-600 text-white shadow-lg">
-                          <Icon className="h-7 w-7" strokeWidth={1.5} />
+                        <div className="relative grid h-12 w-12 place-items-center rounded-xl bg-gradient-to-br from-accent to-orange-600 text-white shadow-lg sm:h-14 sm:w-14">
+                          <Icon className="h-6 w-6 sm:h-7 sm:w-7" strokeWidth={1.5} />
                         </div>
                       </div>
                     </div>
 
-                    <h3 className="text-xl font-bold text-brand">{title}</h3>
+                    <h3 className="text-lg font-bold text-brand sm:text-xl">{title}</h3>
 
-                    <ul className="mt-6 space-y-4 text-sm text-slate-600">
+                    <ul className="mt-5 space-y-3 text-xs text-slate-600 sm:mt-6 sm:space-y-4 sm:text-sm">
                       {bullets.map((point, idx) => (
                         <li key={point} className="flex gap-3">
-                          <span className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-accent/10 text-accent">
-                            <span className="text-xs font-bold">{idx + 1}</span>
+                          <span className="mt-1 flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-accent/10 text-accent sm:h-5 sm:w-5">
+                            <span className="text-[10px] font-bold sm:text-xs">{idx + 1}</span>
                           </span>
                           <span className="leading-relaxed">{point}</span>
                         </li>
@@ -436,7 +436,7 @@ export default function HomePage() {
                     </ul>
 
                     {/* Hover reveal footer */}
-                    <div className="mt-6 pt-6 border-t border-slate-100 opacity-0 transition-opacity group-hover:opacity-100">
+                    <div className="mt-5 border-t border-slate-100 pt-5 opacity-0 transition-opacity group-hover:opacity-100 sm:mt-6 sm:pt-6">
                       <Link
                         href="/features"
                         className="flex items-center gap-2 text-sm font-semibold text-accent"
@@ -479,13 +479,15 @@ export default function HomePage() {
 
           <div className="container-12 relative">
             <div className="mx-auto max-w-3xl text-center">
-              <h2 className="text-4xl font-bold">Results that speak louder than promises</h2>
-              <p className="mt-4 text-lg text-slate-300">
+              <h2 className="text-3xl font-bold sm:text-4xl">
+                Results that speak louder than promises
+              </h2>
+              <p className="mt-4 text-base text-slate-300 sm:text-lg">
                 Real performance data from Algerian plants using Maintafox CMMS.
               </p>
             </div>
 
-            <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+            <div className="mt-12 grid gap-6 sm:mt-16 sm:grid-cols-2 sm:gap-8 lg:grid-cols-4">
               {[
                 {
                   label: 'Mean Time To Repair',
@@ -522,7 +524,7 @@ export default function HomePage() {
                   style={{ animationDelay: `${index * 100}ms` }}
                 >
                   {/* Card with glassmorphism */}
-                  <div className="relative overflow-hidden rounded-2xl bg-white/10 p-8 backdrop-blur-xl ring-1 ring-white/20 transition-all hover:bg-white/20 hover:scale-105">
+                  <div className="relative overflow-hidden rounded-2xl bg-white/10 p-6 backdrop-blur-xl ring-1 ring-white/20 transition-all hover:scale-105 hover:bg-white/20 sm:p-8">
                     {/* Top gradient bar */}
                     <div
                       className={`absolute top-0 left-0 right-0 h-1 bg-gradient-to-r ${metric.color}`}
@@ -531,20 +533,22 @@ export default function HomePage() {
                     {/* Large number */}
                     <div className="relative">
                       <div
-                        className={`text-5xl font-bold bg-gradient-to-r ${metric.color} bg-clip-text text-transparent`}
+                        className={`text-4xl font-bold bg-gradient-to-r ${metric.color} bg-clip-text text-transparent sm:text-5xl`}
                       >
                         {metric.value}
                       </div>
-                      <div className="text-lg font-semibold text-slate-300">{metric.unit}</div>
+                      <div className="text-base font-semibold text-slate-300 sm:text-lg">
+                        {metric.unit}
+                      </div>
                     </div>
 
                     {/* Label */}
-                    <div className="mt-4 text-sm font-semibold uppercase tracking-wider text-slate-400">
+                    <div className="mt-4 text-xs font-semibold uppercase tracking-wider text-slate-400 sm:text-sm">
                       {metric.label}
                     </div>
 
                     {/* Detail text - reveals on hover */}
-                    <p className="mt-3 text-xs leading-relaxed text-slate-400 opacity-0 transition-opacity group-hover:opacity-100">
+                    <p className="mt-3 text-[11px] leading-relaxed text-slate-400 opacity-0 transition-opacity group-hover:opacity-100 sm:text-xs">
                       {metric.detail}
                     </p>
                   </div>
@@ -557,15 +561,15 @@ export default function HomePage() {
         <MotionSection id="how-it-works" className="section">
           <div className="container-12">
             <div className="max-w-3xl">
-              <h2 className="text-3xl font-semibold text-brand">
+              <h2 className="text-2xl font-semibold text-brand sm:text-3xl">
                 From kickoff to continuous improvement
               </h2>
-              <p className="mt-3 text-slate-600">
+              <p className="mt-3 text-sm text-slate-600 sm:text-base">
                 Our proven implementation playbook delivers value quickly while equipping your
                 maintenance team for long-term success.
               </p>
             </div>
-            <div className="mt-10 grid gap-6 lg:grid-cols-4">
+            <div className="mt-8 grid gap-5 sm:mt-10 sm:gap-6 lg:grid-cols-4">
               {[
                 {
                   title: 'Discover',
@@ -601,24 +605,26 @@ export default function HomePage() {
         {/* Testimonials - Quote-forward design */}
         <MotionSection id="testimonials" className="section bg-white relative overflow-hidden">
           {/* Decorative quote marks */}
-          <div className="absolute top-10 left-10 text-[200px] font-serif text-accent/5 leading-none">
+          <div className="absolute top-10 left-10 text-[160px] font-serif leading-none text-accent/5 sm:text-[200px]">
             &ldquo;
           </div>
-          <div className="absolute bottom-10 right-10 text-[200px] font-serif text-brand/5 leading-none rotate-180">
+          <div className="absolute bottom-10 right-10 rotate-180 text-[160px] font-serif leading-none text-brand/5 sm:text-[200px]">
             &rdquo;
           </div>
 
           <div className="container-12 relative">
             <div className="mx-auto max-w-3xl text-center">
-              <h2 className="text-4xl font-bold text-brand">Loved by maintenance professionals</h2>
-              <p className="mt-4 text-lg text-slate-600">
+              <h2 className="text-3xl font-bold text-brand sm:text-4xl">
+                Loved by maintenance professionals
+              </h2>
+              <p className="mt-4 text-base text-slate-600 sm:text-lg">
                 Hear from Algerian plant managers, reliability engineers, and technicians who trust
                 Maintafox every day.
               </p>
             </div>
 
             {/* Staggered testimonials */}
-            <div className="mt-16 grid gap-8 lg:grid-cols-2">
+            <div className="mt-12 grid gap-6 sm:mt-16 sm:gap-8 lg:grid-cols-2">
               {[
                 {
                   quote:
@@ -658,15 +664,15 @@ export default function HomePage() {
                   className={`group relative ${index % 2 === 0 ? 'lg:translate-y-8' : ''}`}
                 >
                   {/* Card */}
-                  <div className="relative rounded-3xl bg-gradient-to-br from-slate-50 to-white p-8 shadow-xl ring-1 ring-slate-200 transition-all hover:shadow-2xl hover:-translate-y-1">
+                  <div className="relative rounded-3xl bg-gradient-to-br from-slate-50 to-white p-6 shadow-xl ring-1 ring-slate-200 transition-all hover:-translate-y-1 hover:shadow-2xl sm:p-8">
                     {/* Accent corner */}
                     <div className="absolute top-0 right-0 h-20 w-20 rounded-bl-full rounded-tr-3xl bg-gradient-to-br from-accent/20 to-transparent" />
 
                     {/* Large quote */}
-                    <div className="text-5xl font-serif text-accent/30">&ldquo;</div>
+                    <div className="text-4xl font-serif text-accent/30 sm:text-5xl">&ldquo;</div>
 
                     {/* Quote text */}
-                    <p className="mt-2 text-lg leading-relaxed text-slate-700">
+                    <p className="mt-2 text-base leading-relaxed text-slate-700 sm:text-lg">
                       {testimonial.quote}
                     </p>
 
@@ -694,24 +700,27 @@ export default function HomePage() {
         {/* Industries served */}
         <MotionSection className="section">
           <div className="container-12">
-            <div className="grid gap-10 lg:grid-cols-[0.8fr_1.2fr]">
+            <div className="grid gap-8 sm:gap-10 lg:grid-cols-[0.8fr_1.2fr]">
               <div>
-                <h2 className="text-3xl font-semibold text-brand">
+                <h2 className="text-2xl font-semibold text-brand sm:text-3xl">
                   Purpose-built for mission-critical industries
                 </h2>
-                <p className="mt-3 text-slate-600">
+                <p className="mt-3 text-sm text-slate-600 sm:text-base">
                   Maintafox adapts to the way your maintenance organization works. Our domain
                   experts bring field experience from manufacturing, energy, transportation, real
                   estate, and government sectors across the MENA region.
                 </p>
-                <p className="mt-4 text-slate-600">
+                <p className="mt-4 text-sm text-slate-600 sm:text-base">
                   Each deployment includes industry-specific templates, KPI dashboards, and
                   regulatory checklists to accelerate adoption.
                 </p>
               </div>
-              <ul className="grid gap-3 rounded-2xl border border-slate-200 bg-white p-8 shadow-sm sm:grid-cols-2">
+              <ul className="grid gap-2 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm sm:grid-cols-2 sm:gap-3 sm:p-8">
                 {industriesServed.map((industry) => (
-                  <li key={industry} className="flex items-center gap-3 text-sm text-slate-600">
+                  <li
+                    key={industry}
+                    className="flex items-center gap-3 text-xs text-slate-600 sm:text-sm"
+                  >
                     <span className="h-2 w-2 rounded-full bg-brand" aria-hidden="true" />
                     <span>{industry}</span>
                   </li>
@@ -725,13 +734,15 @@ export default function HomePage() {
           <div className="container-12">
             {/* Minimal Single Card */}
             <div className="mx-auto max-w-3xl">
-              <div className="relative overflow-hidden rounded-2xl bg-white p-8 shadow-sm ring-1 ring-slate-200">
+              <div className="relative overflow-hidden rounded-2xl bg-white p-6 shadow-sm ring-1 ring-slate-200 sm:p-8">
                 {/* Small header */}
                 <div className="text-center">
                   <div className="inline-flex items-center gap-2 rounded-full bg-slate-100 px-3 py-1 text-xs font-medium text-slate-600">
                     {t.pricing.badge}
                   </div>
-                  <h2 className="mt-4 text-2xl font-bold text-brand">{t.pricing.title}</h2>
+                  <h2 className="mt-4 text-xl font-bold text-brand sm:text-2xl">
+                    {t.pricing.title}
+                  </h2>
                 </div>
 
                 {/* Animated rotating text factors */}
@@ -752,10 +763,10 @@ export default function HomePage() {
                 </div>
 
                 {/* Simple CTA */}
-                <div className="mt-8 flex items-center justify-center gap-4">
+                <div className="mt-6 flex items-center justify-center gap-3 sm:mt-8 sm:gap-4">
                   <a
                     href="/demo"
-                    className="inline-flex items-center gap-2 rounded-lg bg-brand px-6 py-2.5 text-sm font-semibold text-white transition-all hover:bg-brand-dark"
+                    className="inline-flex items-center gap-2 rounded-lg bg-brand px-5 py-2 text-sm font-semibold text-white transition-all hover:bg-brand-dark sm:px-6 sm:py-2.5"
                   >
                     {t.pricing.ctaPrimary}
                     <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -784,16 +795,16 @@ export default function HomePage() {
         {/* Resources CTA - Split design with contrasts */}
         <MotionSection className="section">
           <div className="container-12">
-            <div className="grid gap-8 lg:grid-cols-2">
+            <div className="grid gap-6 sm:gap-8 lg:grid-cols-2">
               {/* Left card - Light theme with icon */}
-              <div className="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-slate-50 to-white p-10 shadow-xl ring-1 ring-slate-200 transition-all hover:shadow-2xl hover:-translate-y-1">
+              <div className="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-slate-50 to-white p-8 shadow-xl ring-1 ring-slate-200 transition-all hover:-translate-y-1 hover:shadow-2xl sm:p-10">
                 {/* Icon badge */}
                 <div className="absolute -top-6 -right-6 h-32 w-32 rounded-full bg-gradient-to-br from-brand/10 to-accent/10 blur-2xl" />
 
                 <div className="relative">
-                  <div className="inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-brand to-brand-dark shadow-lg">
+                  <div className="inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-brand to-brand-dark shadow-lg sm:h-14 sm:w-14">
                     <svg
-                      className="h-7 w-7 text-white"
+                      className="h-6 w-6 text-white sm:h-7 sm:w-7"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -807,8 +818,10 @@ export default function HomePage() {
                     </svg>
                   </div>
 
-                  <h3 className="mt-6 text-2xl font-bold text-brand">CMMS Buyer&apos;s Guide</h3>
-                  <p className="mt-3 text-slate-600 leading-relaxed">
+                  <h3 className="mt-6 text-xl font-bold text-brand sm:text-2xl">
+                    CMMS Buyer&apos;s Guide
+                  </h3>
+                  <p className="mt-3 text-sm leading-relaxed text-slate-600 sm:text-base">
                     Learn how to evaluate computerized maintenance management systems, calculate
                     ROI, and build stakeholder alignment. The guide includes checklists, KPI
                     benchmarks, and an implementation roadmap.
@@ -816,7 +829,7 @@ export default function HomePage() {
 
                   <Link
                     href="/contact"
-                    className="mt-6 inline-flex items-center gap-2 font-semibold text-brand transition-all hover:gap-3"
+                    className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-brand transition-all hover:gap-3 sm:mt-6 sm:text-base"
                   >
                     Request the PDF guide
                     <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -832,14 +845,14 @@ export default function HomePage() {
               </div>
 
               {/* Right card - Dark theme with gradient */}
-              <div className="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-slate-900 via-brand-dark to-slate-900 p-10 text-white shadow-xl transition-all hover:shadow-2xl hover:-translate-y-1">
+              <div className="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-slate-900 via-brand-dark to-slate-900 p-8 text-white shadow-xl transition-all hover:-translate-y-1 hover:shadow-2xl sm:p-10">
                 {/* Animated glow */}
                 <div className="absolute -top-10 -right-10 h-40 w-40 rounded-full bg-accent/30 blur-3xl animate-pulse" />
 
                 <div className="relative">
-                  <div className="inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-accent/20 backdrop-blur-sm ring-1 ring-accent/50">
+                  <div className="inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-accent/20 backdrop-blur-sm ring-1 ring-accent/50 sm:h-14 sm:w-14">
                     <svg
-                      className="h-7 w-7 text-accent"
+                      className="h-6 w-6 text-accent sm:h-7 sm:w-7"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -853,8 +866,10 @@ export default function HomePage() {
                     </svg>
                   </div>
 
-                  <h3 className="mt-6 text-2xl font-bold">Maintenance Excellence Webinar Series</h3>
-                  <p className="mt-3 text-slate-200 leading-relaxed">
+                  <h3 className="mt-6 text-xl font-bold sm:text-2xl">
+                    Maintenance Excellence Webinar Series
+                  </h3>
+                  <p className="mt-3 text-sm leading-relaxed text-slate-200 sm:text-base">
                     Join our monthly live sessions covering reliability-centered maintenance, spare
                     part optimization, and asset performance analytics tailored for Algerian
                     industries.
@@ -862,7 +877,7 @@ export default function HomePage() {
 
                   <Link
                     href="/demo"
-                    className="mt-6 inline-flex items-center gap-2 font-semibold text-accent transition-all hover:gap-3"
+                    className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-accent transition-all hover:gap-3 sm:mt-6 sm:text-base"
                   >
                     Reserve your seat
                     <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -883,28 +898,28 @@ export default function HomePage() {
         <MotionSection id="faq" className="section section-muted">
           <div className="container-12">
             <div className="max-w-3xl">
-              <h2 className="text-3xl font-semibold text-brand">
+              <h2 className="text-2xl font-semibold text-brand sm:text-3xl">
                 Frequently asked questions about Maintafox
               </h2>
-              <p className="mt-3 text-slate-600">
+              <p className="mt-3 text-sm text-slate-600 sm:text-base">
                 Everything you need to know about our computerized maintenance management system,
                 implementation methodology, and support services.
               </p>
             </div>
-            <div className="mt-10 grid gap-4">
+            <div className="mt-8 grid gap-3 sm:mt-10 sm:gap-4">
               {faqs.map((faq) => (
                 <details
                   key={faq.question}
-                  className="group rounded-2xl border border-slate-200 bg-white p-6 shadow-sm"
+                  className="group rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-6"
                 >
-                  <summary className="flex cursor-pointer items-center justify-between gap-4 text-base font-semibold text-brand">
+                  <summary className="flex cursor-pointer items-center justify-between gap-4 text-sm font-semibold text-brand sm:text-base">
                     {faq.question}
                     <span className="text-sm font-normal text-slate-400 group-open:hidden">+</span>
                     <span className="hidden text-sm font-normal text-slate-400 group-open:block">
                       −
                     </span>
                   </summary>
-                  <p className="mt-3 text-sm text-slate-600">{faq.answer}</p>
+                  <p className="mt-3 text-xs text-slate-600 sm:text-sm">{faq.answer}</p>
                 </details>
               ))}
             </div>
@@ -913,14 +928,14 @@ export default function HomePage() {
         {/* Final CTA */}
         <MotionSection className="section">
           <div className="container-12 text-center">
-            <h2 className="text-3xl font-semibold text-brand">
+            <h2 className="text-2xl font-semibold text-brand sm:text-3xl">
               Ready to modernize maintenance with a CMMS built in Algeria?
             </h2>
-            <p className="mx-auto mt-3 max-w-2xl text-slate-600">
+            <p className="mx-auto mt-3 max-w-2xl text-sm text-slate-600 sm:text-base">
               See Maintafox in action and discover how our localized computerized maintenance
               management system boosts reliability, asset uptime, and operational profitability.
             </p>
-            <div className="mt-6 flex flex-wrap justify-center gap-3">
+            <div className="mt-6 flex flex-wrap justify-center gap-2 sm:gap-3">
               <Link href="/demo" className="btn-primary">
                 Schedule your free demo
               </Link>
