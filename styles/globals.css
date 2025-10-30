@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Brand palette - keep existing tones (dark blue / gray / white) */
+  --brand: #0b1e35; /* primary dark blue */
+  --brand-dark: #071427;
+  --brand-light: #0f2a4d;
+  --brand-accent: #1e90ff; /* legacy accent blue */
+  --brand-gray: #e5e7eb; /* neutral gray */
+  /* Maintafox visual identity accent (orange) */
+  --accent: #ff7a19;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  @apply bg-white text-slate-900 antialiased;
+}
+
+.container-12 {
+  @apply container mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center rounded-md bg-brand text-white px-5 py-3 font-medium hover:bg-brand-light transition-colors;
+}
+
+.btn-outline {
+  @apply inline-flex items-center justify-center rounded-md border border-brand text-brand px-5 py-3 font-medium hover:bg-slate-50 transition-colors;
+}
+
+.section {
+  @apply py-16 sm:py-20 lg:py-24;
+}
+
+.section-muted {
+  @apply bg-slate-50;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}

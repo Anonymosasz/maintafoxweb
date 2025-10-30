@@ -1,0 +1,314 @@
+{
+  "nav": {
+    "features": "Features",
+    "about": "About",
+    "pricing": "Pricing",
+    "blog": "Blog",
+    "contact": "Contact",
+    "demo": "Book Demo"
+  },
+  "hero": {
+    "badge": "Algeria's First Local CMMS",
+    "title1": "Stop Fighting",
+    "title2": "Fires.",
+    "title3": "Start Building",
+    "title4": "Reliability.",
+    "subtitle": "A unified CMMS platform that transforms reactive maintenance into proactive strategy. Built in Algeria, for Algerian industries.",
+    "stat1Value": "-32%",
+    "stat1Label": "Downtime",
+    "stat2Value": "94%",
+    "stat2Label": "PM Compliance",
+    "stat3Value": "4-6w",
+    "stat3Label": "Go-Live",
+    "ctaPrimary": "Request a Live Demo",
+    "ctaSecondary": "Explore Platform",
+    "dashboardTitle": "Real-time Dashboard",
+    "dashboardLive": "Live",
+    "dashboardMTTR": "MTTR",
+    "dashboardUptime": "Uptime",
+    "dashboardWOs": "WOs",
+    "criticalAssets": "Critical Assets",
+    "assetOK": "OK",
+    "assetPMDue": "PM Due"
+  },
+  "painPoints": {
+    "badge": "The Problem",
+    "title": "The hidden cost of reactive maintenance",
+    "subtitle": "Maintafox eliminates firefighting and transforms fragmented workflows into a centralized, intelligent system.",
+    "learnMore": "Learn how Maintafox solves this",
+    "items": [
+      {
+        "title": "Unexpected Downtime",
+        "description": "Production stops, scrap rates spike, and emergency overtime erodes margins when maintenance is purely reactive."
+      },
+      {
+        "title": "Complex Scheduling",
+        "description": "Manual work order coordination creates silos between maintenance, production, and stores teams."
+      },
+      {
+        "title": "Limited Visibility",
+        "description": "Without reliable CMMS analytics, leaders cannot prove ROI or forecast maintenance budgets with confidence."
+      },
+      {
+        "title": "Inefficient Inventory",
+        "description": "Unplanned stockouts and overstocked critical spares tie up capital and increase technician frustration."
+      }
+    ]
+  },
+  "features": {
+    "badge": "Core Features",
+    "title": "Everything You Need in One Platform",
+    "workOrders": {
+      "title": "Work Order Management",
+      "description": "Create, assign, and track work orders in real-time. Mobile-first design keeps your team connected from anywhere.",
+      "features": [
+        "Digital work orders",
+        "Priority & status tracking",
+        "Mobile app access",
+        "Photo attachments",
+        "Time tracking"
+      ]
+    },
+    "preventive": {
+      "title": "Preventive Maintenance",
+      "description": "Automated scheduling based on time, meter readings, or conditions. Stop breakdowns before they happen.",
+      "features": [
+        "Automated scheduling",
+        "Custom checklists",
+        "Recurring tasks",
+        "Condition monitoring",
+        "Calendar view"
+      ]
+    },
+    "assets": {
+      "title": "Asset Management",
+      "description": "Complete asset lifecycle tracking with maintenance history, documents, and QR code labeling.",
+      "features": [
+        "Asset hierarchy",
+        "QR code labels",
+        "Maintenance history",
+        "Document storage",
+        "Warranty tracking"
+      ]
+    },
+    "inventory": {
+      "title": "Inventory & Parts",
+      "description": "Track spare parts, manage stock levels, and automate reordering. Never run out of critical supplies.",
+      "features": [
+        "Parts catalog",
+        "Stock tracking",
+        "Reorder alerts",
+        "Supplier management",
+        "Cost tracking"
+      ]
+    }
+  },
+  "kpis": {
+    "badge": "Performance Metrics",
+    "title": "Data-Driven Maintenance",
+    "description": "Real-time dashboards and reports to track what matters most.",
+    "mtbf": {
+      "label": "MTBF",
+      "description": "Mean Time Between Failures",
+      "value": "Track reliability"
+    },
+    "mttr": {
+      "label": "MTTR",
+      "description": "Mean Time To Repair",
+      "value": "Reduce downtime"
+    },
+    "compliance": {
+      "label": "Compliance",
+      "description": "Completion Rate",
+      "value": "Stay compliant"
+    },
+    "costs": {
+      "label": "Costs",
+      "description": "Maintenance Spend",
+      "value": "Control budget"
+    }
+  },
+  "testimonials": {
+    "badge": "Success Stories",
+    "title": "Trusted by Maintenance Teams Worldwide",
+    "items": [
+      {
+        "quote": "MaintaFox reduced our unplanned downtime by 60% in just 3 months. The ROI was immediate.",
+        "author": "Sarah Johnson",
+        "role": "Maintenance Manager",
+        "company": "GlobalTech Industries"
+      },
+      {
+        "quote": "Finally, all our maintenance data in one place. The mobile app is a game-changer for our field technicians.",
+        "author": "Michael Chen",
+        "role": "Operations Director",
+        "company": "Pacific Manufacturing"
+      },
+      {
+        "quote": "Audit preparation used to take weeks. Now we generate compliance reports in minutes.",
+        "author": "Emma Rodriguez",
+        "role": "Facilities Director",
+        "company": "HealthCare Systems"
+      }
+    ]
+  },
+  "pricing": {
+    "badge": "💰 Flexible Pricing",
+    "title": "Custom Pricing Based On",
+    "factors": [
+      "Team Size",
+      "Asset Scope",
+      "Data Volume",
+      "Security Level",
+      "Platform Type",
+      "Smart Features",
+      "Integrations",
+      "Customization",
+      "Support Level",
+      "Training Needs",
+      "Implementation Duration",
+      "Contract Type"
+    ],
+    "ctaPrimary": "Get Custom Quote",
+    "ctaSecondary": "Contact Sales",
+    "footer": "Transparent pricing • No hidden fees • Flexible payment terms"
+  },
+  "resources": {
+    "learn": {
+      "title": "Learn & Grow",
+      "description": "Explore our resource library with guides, best practices, and industry insights.",
+      "cta": "Browse Resources"
+    },
+    "demo": {
+      "title": "See It In Action",
+      "description": "Book a personalized demo and discover how MaintaFox can transform your maintenance operations.",
+      "cta": "Schedule Demo"
+    }
+  },
+  "footer": {
+    "tagline": "Modern maintenance management for forward-thinking teams.",
+    "product": "Product",
+    "company": "Company",
+    "resources": "Resources",
+    "legal": "Legal",
+    "copyright": "© 2024 MaintaFox. All rights reserved.",
+    "links": {
+      "features": "Features",
+      "pricing": "Pricing",
+      "demo": "Book Demo",
+      "about": "About Us",
+      "careers": "Careers",
+      "contact": "Contact",
+      "blog": "Blog",
+      "documentation": "Documentation",
+      "support": "Support",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    }
+  },
+  "common": {
+    "readMore": "Read More",
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "contactUs": "Contact Us",
+    "watchVideo": "Watch Video",
+    "downloadPdf": "Download PDF",
+    "comingSoon": "Coming Soon",
+    "loading": "Loading..."
+  },
+  "blog": {
+    "title": "Latest Insights",
+    "subtitle": "Maintenance strategies, industry trends, and best practices",
+    "readArticle": "Read Article",
+    "minuteRead": "min read",
+    "newsletter": {
+      "title": "Stay Updated",
+      "description": "Get maintenance tips and product updates delivered to your inbox",
+      "placeholder": "Enter your email",
+      "button": "Subscribe",
+      "privacy": "We respect your privacy. Unsubscribe at any time."
+    }
+  },
+  "contact": {
+    "badge": "Get in Touch",
+    "title": "Let's Talk",
+    "titleHighlight": "Maintenance Excellence",
+    "subtitle": "Whether you need a guided CMMS demo, implementation advice, or ongoing support, the Maintafox team is ready to help. Reach out and we'll respond within one business day.",
+    "emailUs": "Email us",
+    "callUs": "Call us",
+    "sales": {
+      "title": "Sales & Demos",
+      "description": "Tell us about your maintenance goals, facility size, and existing systems. Our solution consultants will tailor a CMMS walkthrough with relevant KPIs and reports.",
+      "cta": "Schedule a demo"
+    },
+    "support": {
+      "title": "Customer Support",
+      "description": "Already a Maintafox customer? Our success team provides bilingual assistance and remote diagnostics 24/7 for critical issues.",
+      "cta": "Contact support"
+    },
+    "office": {
+      "title": "Visit Our Office",
+      "address": "Technoparc Sidi Abdellah",
+      "city": "Dar El Beida, Algiers",
+      "country": "Algeria",
+      "hours": "Sunday – Thursday",
+      "time": "9:00 AM – 6:00 PM"
+    },
+    "projectQuestions": {
+      "title": "Planning Your Project?",
+      "description": "Share details about your maintenance environment to help us prepare the best solution for you:",
+      "questions": [
+        "Managing multiple plants or facilities?",
+        "On-premise, cloud, or hybrid deployment?",
+        "Which ERPs, SCADA, or IoT to integrate?",
+        "What KPIs define your success?"
+      ]
+    },
+    "social": {
+      "title": "Stay Connected",
+      "subtitle": "Follow us for maintenance insights, product updates, and industry news",
+      "linkedin": "LinkedIn",
+      "facebook": "Facebook"
+    },
+    "inPerson": {
+      "title": "Prefer Meeting in Person?",
+      "description": "We frequently host workshops and discovery sessions on-site with maintenance teams across Algeria. Let us know your preferred dates, and we'll arrange a visit with our consultants and product specialists.",
+      "cta": "Schedule an on-site visit"
+    }
+  },
+  "demo": {
+    "title": "See MaintaFox in Action",
+    "subtitle": "Book a personalized demo and discover how we can transform your maintenance operations",
+    "form": {
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "John Doe",
+      "email": "Email Address",
+      "emailPlaceholder": "john@company.com",
+      "company": "Company Name",
+      "companyPlaceholder": "Your Company",
+      "phone": "Phone Number",
+      "phonePlaceholder": "+213 XX XXX XXXX",
+      "industry": "Industry",
+      "industryPlaceholder": "Select your industry",
+      "assets": "Number of Assets",
+      "assetsPlaceholder": "e.g., 100",
+      "message": "Tell Us About Your Needs",
+      "messagePlaceholder": "Describe your maintenance challenges...",
+      "submit": "Request Demo",
+      "submitting": "Sending..."
+    },
+    "benefits": {
+      "title": "What You'll Learn",
+      "items": [
+        "Complete platform walkthrough tailored to your industry",
+        "Live demonstration of key features and workflows",
+        "Custom pricing based on your specific requirements",
+        "Implementation timeline and onboarding process"
+      ]
+    }
+  },
+  "featuresPage": {
+    "title": "Comprehensive Features",
+    "subtitle": "Everything you need to manage maintenance operations effectively"
+  }
+}

@@ -1,0 +1,314 @@
+{
+  "nav": {
+    "features": "Fonctionnalités",
+    "about": "À propos",
+    "pricing": "Tarification",
+    "blog": "Blog",
+    "contact": "Contact",
+    "demo": "Réserver une Démo"
+  },
+  "hero": {
+    "badge": "Premier GMAO Local d'Algérie",
+    "title1": "Arrêtez de Combattre",
+    "title2": "les Incendies.",
+    "title3": "Commencez à Construire",
+    "title4": "la Fiabilité.",
+    "subtitle": "Une plateforme GMAO unifiée qui transforme la maintenance réactive en stratégie proactive. Construite en Algérie, pour les industries algériennes.",
+    "stat1Value": "-32%",
+    "stat1Label": "Temps d'Arrêt",
+    "stat2Value": "94%",
+    "stat2Label": "Conformité MP",
+    "stat3Value": "4-6s",
+    "stat3Label": "Mise en Service",
+    "ctaPrimary": "Demander une Démo en Direct",
+    "ctaSecondary": "Explorer la Plateforme",
+    "dashboardTitle": "Tableau de Bord en Temps Réel",
+    "dashboardLive": "En Direct",
+    "dashboardMTTR": "MTTR",
+    "dashboardUptime": "Disponibilité",
+    "dashboardWOs": "BTs",
+    "criticalAssets": "Actifs Critiques",
+    "assetOK": "OK",
+    "assetPMDue": "MP Due"
+  },
+  "painPoints": {
+    "badge": "Le Problème",
+    "title": "Le coût caché de la maintenance réactive",
+    "subtitle": "Maintafox élimine la lutte contre les incendies et transforme les flux de travail fragmentés en un système centralisé et intelligent.",
+    "learnMore": "Découvrez comment Maintafox résout ce problème",
+    "items": [
+      {
+        "title": "Temps d'Arrêt Imprévu",
+        "description": "La production s'arrête, les taux de rebut augmentent et les heures supplémentaires d'urgence érodent les marges lorsque la maintenance est purement réactive."
+      },
+      {
+        "title": "Planification Complexe",
+        "description": "La coordination manuelle des bons de travail crée des silos entre les équipes de maintenance, de production et de magasin."
+      },
+      {
+        "title": "Visibilité Limitée",
+        "description": "Sans analyses GMAO fiables, les dirigeants ne peuvent pas prouver le ROI ou prévoir les budgets de maintenance avec confiance."
+      },
+      {
+        "title": "Inventaire Inefficace",
+        "description": "Les ruptures de stock imprévues et les pièces critiques surstockées immobilisent le capital et augmentent la frustration des techniciens."
+      }
+    ]
+  },
+  "features": {
+    "badge": "Fonctionnalités Principales",
+    "title": "Tout ce dont Vous Avez Besoin sur Une Plateforme",
+    "workOrders": {
+      "title": "Gestion des Bons de Travail",
+      "description": "Créez, attribuez et suivez les bons de travail en temps réel. Design mobile-first pour garder votre équipe connectée de n'importe où.",
+      "features": [
+        "Bons de travail numériques",
+        "Suivi priorité & statut",
+        "Accès application mobile",
+        "Pièces jointes photos",
+        "Suivi du temps"
+      ]
+    },
+    "preventive": {
+      "title": "Maintenance Préventive",
+      "description": "Planification automatisée basée sur le temps, les relevés de compteur ou les conditions. Arrêtez les pannes avant qu'elles ne se produisent.",
+      "features": [
+        "Planification automatisée",
+        "Listes de contrôle personnalisées",
+        "Tâches récurrentes",
+        "Surveillance des conditions",
+        "Vue calendrier"
+      ]
+    },
+    "assets": {
+      "title": "Gestion des Actifs",
+      "description": "Suivi complet du cycle de vie des actifs avec historique de maintenance, documents et étiquetage QR code.",
+      "features": [
+        "Hiérarchie des actifs",
+        "Étiquettes QR code",
+        "Historique de maintenance",
+        "Stockage de documents",
+        "Suivi de garantie"
+      ]
+    },
+    "inventory": {
+      "title": "Inventaire & Pièces",
+      "description": "Suivez les pièces de rechange, gérez les niveaux de stock et automatisez les réapprovisionnements. Ne manquez jamais de fournitures critiques.",
+      "features": [
+        "Catalogue de pièces",
+        "Suivi des stocks",
+        "Alertes de réapprovisionnement",
+        "Gestion fournisseurs",
+        "Suivi des coûts"
+      ]
+    }
+  },
+  "kpis": {
+    "badge": "Métriques de Performance",
+    "title": "Maintenance Basée sur les Données",
+    "description": "Tableaux de bord et rapports en temps réel pour suivre ce qui compte le plus.",
+    "mtbf": {
+      "label": "MTBF",
+      "description": "Temps Moyen Entre Pannes",
+      "value": "Suivi fiabilité"
+    },
+    "mttr": {
+      "label": "MTTR",
+      "description": "Temps Moyen de Réparation",
+      "value": "Réduire temps d'arrêt"
+    },
+    "compliance": {
+      "label": "Conformité",
+      "description": "Taux d'Achèvement",
+      "value": "Rester conforme"
+    },
+    "costs": {
+      "label": "Coûts",
+      "description": "Dépenses de Maintenance",
+      "value": "Contrôler budget"
+    }
+  },
+  "testimonials": {
+    "badge": "Témoignages",
+    "title": "Approuvé par les Équipes de Maintenance du Monde Entier",
+    "items": [
+      {
+        "quote": "MaintaFox a réduit nos temps d'arrêt imprévus de 60% en seulement 3 mois. Le ROI a été immédiat.",
+        "author": "Sarah Johnson",
+        "role": "Responsable Maintenance",
+        "company": "GlobalTech Industries"
+      },
+      {
+        "quote": "Enfin, toutes nos données de maintenance en un seul endroit. L'application mobile change la donne pour nos techniciens de terrain.",
+        "author": "Michael Chen",
+        "role": "Directeur des Opérations",
+        "company": "Pacific Manufacturing"
+      },
+      {
+        "quote": "La préparation des audits prenait des semaines. Maintenant, nous générons des rapports de conformité en quelques minutes.",
+        "author": "Emma Rodriguez",
+        "role": "Directrice des Installations",
+        "company": "HealthCare Systems"
+      }
+    ]
+  },
+  "pricing": {
+    "badge": "💰 Tarification Flexible",
+    "title": "Tarification Personnalisée Basée Sur",
+    "factors": [
+      "Taille de l'Équipe",
+      "Portée des Actifs",
+      "Volume de Données",
+      "Niveau de Sécurité",
+      "Type de Plateforme",
+      "Fonctionnalités Intelligentes",
+      "Intégrations",
+      "Personnalisation",
+      "Niveau de Support",
+      "Besoins en Formation",
+      "Durée d'Implémentation",
+      "Type de Contrat"
+    ],
+    "ctaPrimary": "Obtenir un Devis",
+    "ctaSecondary": "Contacter les Ventes",
+    "footer": "Tarification transparente • Aucun frais caché • Modalités de paiement flexibles"
+  },
+  "resources": {
+    "learn": {
+      "title": "Apprendre & Grandir",
+      "description": "Explorez notre bibliothèque de ressources avec des guides, meilleures pratiques et perspectives de l'industrie.",
+      "cta": "Parcourir les Ressources"
+    },
+    "demo": {
+      "title": "Voyez-le en Action",
+      "description": "Réservez une démo personnalisée et découvrez comment MaintaFox peut transformer vos opérations de maintenance.",
+      "cta": "Planifier une Démo"
+    }
+  },
+  "footer": {
+    "tagline": "Gestion de maintenance moderne pour les équipes avant-gardistes.",
+    "product": "Produit",
+    "company": "Entreprise",
+    "resources": "Ressources",
+    "legal": "Légal",
+    "copyright": "© 2024 MaintaFox. Tous droits réservés.",
+    "links": {
+      "features": "Fonctionnalités",
+      "pricing": "Tarification",
+      "demo": "Réserver une Démo",
+      "about": "À propos",
+      "careers": "Carrières",
+      "contact": "Contact",
+      "blog": "Blog",
+      "documentation": "Documentation",
+      "support": "Support",
+      "privacy": "Politique de Confidentialité",
+      "terms": "Conditions d'Utilisation"
+    }
+  },
+  "common": {
+    "readMore": "Lire Plus",
+    "learnMore": "En Savoir Plus",
+    "getStarted": "Commencer",
+    "contactUs": "Contactez-nous",
+    "watchVideo": "Regarder la Vidéo",
+    "downloadPdf": "Télécharger PDF",
+    "comingSoon": "Bientôt Disponible",
+    "loading": "Chargement..."
+  },
+  "blog": {
+    "title": "Dernières Actualités",
+    "subtitle": "Stratégies de maintenance, tendances du secteur et meilleures pratiques",
+    "readArticle": "Lire l'Article",
+    "minuteRead": "min de lecture",
+    "newsletter": {
+      "title": "Restez Informé",
+      "description": "Recevez des conseils de maintenance et des mises à jour produit dans votre boîte mail",
+      "placeholder": "Entrez votre email",
+      "button": "S'abonner",
+      "privacy": "Nous respectons votre vie privée. Désabonnez-vous à tout moment."
+    }
+  },
+  "contact": {
+    "badge": "Contactez-nous",
+    "title": "Parlons",
+    "titleHighlight": "Excellence en Maintenance",
+    "subtitle": "Que vous ayez besoin d'une démo GMAO guidée, de conseils d'implémentation ou d'un support continu, l'équipe Maintafox est prête à vous aider. Contactez-nous et nous vous répondrons dans un délai d'un jour ouvrable.",
+    "emailUs": "Envoyez-nous un email",
+    "callUs": "Appelez-nous",
+    "sales": {
+      "title": "Ventes & Démos",
+      "description": "Parlez-nous de vos objectifs de maintenance, de la taille de vos installations et de vos systèmes existants. Nos consultants en solutions adapteront une présentation GMAO avec des KPI et des rapports pertinents.",
+      "cta": "Planifier une démo"
+    },
+    "support": {
+      "title": "Support Client",
+      "description": "Déjà client Maintafox? Notre équipe de réussite offre une assistance bilingue et des diagnostics à distance 24h/24 et 7j/7 pour les problèmes critiques.",
+      "cta": "Contacter le support"
+    },
+    "office": {
+      "title": "Visitez Notre Bureau",
+      "address": "Technoparc Sidi Abdellah",
+      "city": "Dar El Beida, Alger",
+      "country": "Algérie",
+      "hours": "Dimanche – Jeudi",
+      "time": "9h00 – 18h00"
+    },
+    "projectQuestions": {
+      "title": "Planifiez Votre Projet?",
+      "description": "Partagez des détails sur votre environnement de maintenance pour nous aider à préparer la meilleure solution pour vous:",
+      "questions": [
+        "Gérez-vous plusieurs usines ou installations?",
+        "Déploiement sur site, cloud ou hybride?",
+        "Quels ERP, SCADA ou IoT intégrer?",
+        "Quels KPI définissent votre succès?"
+      ]
+    },
+    "social": {
+      "title": "Restez Connecté",
+      "subtitle": "Suivez-nous pour des informations sur la maintenance, des mises à jour produit et des actualités du secteur",
+      "linkedin": "LinkedIn",
+      "facebook": "Facebook"
+    },
+    "inPerson": {
+      "title": "Vous Préférez une Rencontre en Personne?",
+      "description": "Nous organisons fréquemment des ateliers et des sessions de découverte sur site avec des équipes de maintenance à travers l'Algérie. Faites-nous connaître vos dates préférées et nous organiserons une visite avec nos consultants et spécialistes produit.",
+      "cta": "Planifier une visite sur site"
+    }
+  },
+  "demo": {
+    "title": "Découvrez MaintaFox en Action",
+    "subtitle": "Réservez une démo personnalisée et découvrez comment nous pouvons transformer vos opérations de maintenance",
+    "form": {
+      "fullName": "Nom Complet",
+      "fullNamePlaceholder": "Jean Dupont",
+      "email": "Adresse Email",
+      "emailPlaceholder": "jean@entreprise.com",
+      "company": "Nom de l'Entreprise",
+      "companyPlaceholder": "Votre Entreprise",
+      "phone": "Numéro de Téléphone",
+      "phonePlaceholder": "+213 XX XXX XXXX",
+      "industry": "Industrie",
+      "industryPlaceholder": "Sélectionnez votre industrie",
+      "assets": "Nombre d'Actifs",
+      "assetsPlaceholder": "ex: 100",
+      "message": "Parlez-nous de Vos Besoins",
+      "messagePlaceholder": "Décrivez vos défis de maintenance...",
+      "submit": "Demander une Démo",
+      "submitting": "Envoi en cours..."
+    },
+    "benefits": {
+      "title": "Ce Que Vous Apprendrez",
+      "items": [
+        "Présentation complète de la plateforme adaptée à votre industrie",
+        "Démonstration en direct des fonctionnalités et flux de travail clés",
+        "Tarification personnalisée selon vos besoins spécifiques",
+        "Calendrier d'implémentation et processus d'intégration"
+      ]
+    }
+  },
+  "featuresPage": {
+    "title": "Fonctionnalités Complètes",
+    "subtitle": "Tout ce dont vous avez besoin pour gérer efficacement les opérations de maintenance"
+  }
+}
