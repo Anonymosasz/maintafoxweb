@@ -2,8 +2,8 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <footer id="footer" className="mt-16 border-t sm:mt-20">
-      <div className="container-12 grid grid-cols-1 gap-6 py-10 md:grid-cols-4 sm:gap-8 sm:py-12">
+    <footer id="footer" className="mt-20 border-t">
+      <div className="container-12 grid grid-cols-1 md:grid-cols-4 gap-8 py-12">
         <div>
           <div className="text-xl font-semibold text-brand">Maintafox</div>
           <p className="mt-2 text-sm text-slate-600">

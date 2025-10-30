@@ -22,37 +22,20 @@ body {
   @apply bg-white text-slate-900 antialiased;
 }
 
-/* Slightly shrink the overall scale on smaller viewports without affecting layout */
-html {
-  font-size: 100%;
-}
-
-@media (max-width: 640px) {
-  html {
-    font-size: 90%;
-  }
-}
-
-@media (max-width: 480px) {
-  html {
-    font-size: 87.5%;
-  }
-}
-
 .container-12 {
   @apply container mx-auto px-4 sm:px-6 lg:px-8;
 }
 
 .btn-primary {
-  @apply inline-flex items-center justify-center rounded-md bg-brand text-white px-4 py-2.5 text-sm font-medium hover:bg-brand-light transition-colors sm:px-5 sm:py-3 sm:text-base;
+  @apply inline-flex items-center justify-center rounded-md bg-brand text-white px-5 py-3 font-medium hover:bg-brand-light transition-colors;
 }
 
 .btn-outline {
-  @apply inline-flex items-center justify-center rounded-md border border-brand text-brand px-4 py-2.5 text-sm font-medium hover:bg-slate-50 transition-colors sm:px-5 sm:py-3 sm:text-base;
+  @apply inline-flex items-center justify-center rounded-md border border-brand text-brand px-5 py-3 font-medium hover:bg-slate-50 transition-colors;
 }
 
 .section {
-  @apply py-12 sm:py-20 lg:py-24;
+  @apply py-16 sm:py-20 lg:py-24;
 }
 
 .section-muted {

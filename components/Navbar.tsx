@@ -25,10 +25,10 @@ export default function Navbar() {
         scrolled ? 'bg-white/80 backdrop-blur border-b' : 'bg-white/60 backdrop-blur'
       }`}
     >
-      <nav className="container-12 flex items-center justify-between py-3 sm:py-4">
+      <nav className="container-12 flex items-center justify-between py-4">
         <Link href="/" className="flex items-center gap-3">
           <Image src={logo} alt="Maintafox" width={28} height={28} className="rounded-sm" />
-          <span className="font-semibold text-brand text-base sm:text-lg">Maintafox</span>
+          <span className="font-semibold text-brand">Maintafox</span>
         </Link>
         <div className="hidden md:flex items-center gap-6 text-sm">
           <Link href="/features" className="hover:text-brand">

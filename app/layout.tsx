@@ -1,5 +1,6 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import '../styles/globals.css';
+import '../styles/mobile-optimizations.css';
 import { Inter } from 'next/font/google';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -31,6 +32,13 @@ export const metadata: Metadata = {
       'Centralize assets, work orders, PMs, inventory, and analytics. Locally installed and supported in Algeria.',
   },
   alternates: { canonical: '/' },
+};
+
+// Force desktop-like layout on mobile by using a fixed viewport width.
+// This makes small devices render the desktop breakpoints, just scaled down.
+export const viewport: Viewport = {
+  width: '1280',
+  // Let browsers auto-scale to fit; avoid locking zoom for accessibility.
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

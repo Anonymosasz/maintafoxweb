@@ -1,0 +1,80 @@
+/*
+	Mobile-first visual tweaks to keep the same layout and hierarchy,
+	but render elements more compact on smaller screens.
+	We primarily scale via the root font-size so all rem-based Tailwind
+	spacing, typography, and components shrink proportionally.
+*/
+
+/* Base safeguard for better font rendering on mobile */
+html, body { -webkit-text-size-adjust: 100%; }
+
+/* Small screens: globally scale down rem-based sizes */
+@media (max-width: 640px) {
+	/* 14px root font size (87.5% of 16px) */
+	html { font-size: 87.5%; }
+
+	/* Keep heading hierarchy but tighten rhythm slightly */
+	h1, h2, h3 { line-height: 1.15; }
+	h1, .text-6xl, .text-5xl { letter-spacing: -0.01em; }
+
+	/* Buttons: slightly smaller text and paddings */
+	.btn-primary,
+	.btn-outline,
+	button[class*="btn"] {
+			font-size: 0.875rem; /* text-sm */
+			line-height: 1.25rem;
+			padding: 0.5rem 1rem; /* py-2 px-4 */
+			border-radius: 0.375rem; /* rounded-md */
+	}
+
+	/* Inputs and selects: compact without hurting usability */
+	input,
+	select,
+	textarea {
+			font-size: 0.875rem; /* text-sm */
+			line-height: 1.25rem;
+			padding: 0.5rem 0.75rem; /* py-2 px-3 */
+	}
+
+	/* Sections: reduce vertical whitespace a touch */
+		.section { padding-top: 3rem; padding-bottom: 3rem; } /* py-12 */
+
+	/* Navbar/Footer: tighter vertical padding while keeping clarity */
+		header nav { padding-top: 0.75rem; padding-bottom: 0.75rem; } /* py-3 */
+		footer { padding-top: 2.5rem; padding-bottom: 2.5rem; } /* py-10 */
+}
+
+/* Extra-small phones */
+@media (max-width: 480px) {
+	/* ~13px root font size */
+	html { font-size: 81.25%; }
+
+	.btn-primary,
+	.btn-outline {
+			font-size: 0.875rem; /* text-sm */
+			line-height: 1.25rem;
+			padding-top: 0.5rem; /* py-2 */
+			padding-bottom: 0.5rem;
+			padding-left: 0.875rem; /* px-3.5 */
+			padding-right: 0.875rem;
+	}
+
+		.section { padding-top: 2.5rem; padding-bottom: 2.5rem; } /* py-10 */
+}
+
+/* Very narrow devices */
+@media (max-width: 360px) {
+	/* ~12px root font size */
+	html { font-size: 75%; }
+
+	.btn-primary,
+	.btn-outline {
+			font-size: 0.75rem; /* text-xs */
+			line-height: 1rem;
+			padding-left: 0.75rem; padding-right: 0.75rem; /* px-3 */
+			padding-top: 0.375rem; padding-bottom: 0.375rem; /* py-1.5 */
+	}
+
+		.section { padding-top: 2rem; padding-bottom: 2rem; } /* py-8 */
+}
+
